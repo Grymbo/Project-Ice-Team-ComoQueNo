@@ -1,54 +1,76 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <html lang="en">
-    <meta charset="utf-8" />
-    <meta name="Proyecto-Grupal-GOIT" content="Project-Ice" />
-    <title>Studio</title>
-</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Titan+One&display=swap" rel="stylesheet">
+
+    <title>Ice Cream</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
 <body>
     <header>
-        <svg class="logo">
-            <use href="./images/svgs.svg#"></use>
-        </svg>
+        <div class="logo">
+            <svg class="logo__img">
+                <use href="./images/symbol-defs.svg#icon-logoheader"></use>
+                
+            </svg>
+        </div>
         <nav>
-            <a href="index.html" class="headernav">Home</a>
-            <a href=»#» class="headernav">About us</a>
-            <a href=»#» class="headernav">How it´s made?</a>
-            <a href=»#» class="headernav">Our products</a>
-            <a href=»#» class="headernav">Contact</a>
+            <ul class="nav__ul">
+                <li class="nav__ul__li"><a>Home</a></li>
+                <li class="nav_ul__li"><a>About us</a></li>
+                <li class="nav_ul__li"><a>How it’s made?</a></li>
+                <li class="nav_ul__li"><a>Our products</a></li>
+                <li class="nav_ul__li"><a>Contact</a></li>
+            </ul>
+
         </nav>
-        <button type="button" class="buybutton">Buy now</button>
+        <div class="header__buttom--withe buttom">
+            <p>Buy now ></p>
+        </div>
     </header>
     <main>
-        <section>
-            <div class="section1title">
-                <p>ICE CREAM <br> MADE WITH</p>
-                <p>PASSION</p>
-            </div>
+        <h1>ice&nbsp; cream made with <br>
+            <span>passion</span></h1>
+        <div class="main__buttom--red buttom">
+            <p>Products</p>
+        </div>
+        <div class="main__buttom--white buttom">
+            <p>How it’s made?</p>
+        </div>
+        <div class="main__txt">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+        </div>
+        <div class="main__circle">
 
-            <div class="section1buttons">
-                <button type="button" class="titlebutton">Products</button>
-                <button type="button" class="titlebutton">How it´s made?</button>
-            </div>
-
-            <div class="">
-                <div>
-                    <p>16</p>
-                    <p>cafes</p>
-                </div>
-                <div>
-                    <p>23<br>
-                    <p>food trucks</p>
-                </div>
-            </div>
-            <img src="/images/slider-pic5_1.png" alt="tasty">
-            <img src="/images/slider-pic7_1.png" alt="icecream">
-            <img src="/images/slider-pic4_1.png" alt="milk">
-        </section>
-        <section>
+        </div>
+        <div class="main__img__icecream">
+            <img src="images/slider-pic7_1.png" alt="Ice-cream ">
+        </div>
+        <div class="main__img__icepop">
+            <img src="images/slider-pic4_1.png" alt="Girl eating Ice-pop">
+        </div>
+        <div class="main__img__milk">
+            <img src="images/slider-pic5_1.png" alt="Milk in a jar">
+        </div>
+        <div class="main__img__arrow"></div>
+        
+        <div class="main__count main__count__cafe">16</div>
+        <p  class="main__p__count main__p__count__cafe">cafe</p>
+        <div class="main__count main__count__foodtrucks">23</div>
+        <p class="main__p__count main__p__count__foodtrucks">food trucks</p>
+        <div class="main__img__arrow">
+            <img src="images/arrow-right1.png" alt="Ice-cream ">
+        </div>
+    </main>
+    <section>
             <div class="">
                 <p>
                     100% NATURAL
@@ -284,13 +306,13 @@
                 <button type="button" class="buybutton">Franchise ></button>
             </div>
         </section>
-    </main>
+    
 
     <footer>
         <p> HOMEMADE ICE CREAM MADE</p>
         <p> WITH PASSION</p>
-        <div>
-            <div>
+        <div class="">
+            <div class="footericons">
                 <a>
                     <svg class="icon-git">
                         <use href="./images/svgs.svg#"></use>

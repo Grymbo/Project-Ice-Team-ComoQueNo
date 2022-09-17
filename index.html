@@ -1,54 +1,74 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <html lang="en">
-    <meta charset="utf-8" />
-    <meta name="Proyecto-Grupal-GOIT" content="Project-Ice" />
-    <title>Studio</title>
-</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css" />
 
+</head>
 <body>
     <header>
-        <svg class="logo">
-            <use href="./images/svgs.svg#"></use>
-        </svg>
+        <div class="logo">
+            <svg class="logo__img">
+                <use href="./images/symbol-defs.svg#icon-logoheader"></use>
+
+            </svg>
+        </div>
         <nav>
-            <a href="index.html" class="headernav">Home</a>
-            <a href=»#» class="headernav">About us</a>
-            <a href=»#» class="headernav">How it´s made?</a>
-            <a href=»#» class="headernav">Our products</a>
-            <a href=»#» class="headernav">Contact</a>
+            <ul class="nav__ul">
+                <li class="nav__ul__li"><a>Home</a></li>
+                <li class="nav_ul__li"><a>About us</a></li>
+                <li class="nav_ul__li"><a>How it’s made?</a></li>
+                <li class="nav_ul__li"><a>Our products</a></li>
+                <li class="nav_ul__li"><a>Contact</a></li>
+            </ul>
         </nav>
-        <button type="button" class="buybutton">Buy now</button>
+        <div class="header__buttom--withe buttom">
+            <p>Buy now ></p>
+        </div>
     </header>
     <main>
-        <section>
-            <div class="section1title">
-                <p>ICE CREAM <br> MADE WITH</p>
-                <p>PASSION</p>
-            </div>
+        <h1>ice&nbsp; cream made with <br>
+            <span>passion</span></h1>
+        <div class="main__buttom--red buttom">
+            <p>Products</p>
+        </div>
+        <div class="main__buttom--white buttom">
+            <p>How it’s made?</p>
+        </div>
+        <div class="main__txt">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+        </div>
+        <div class="main__circle">
 
-            <div class="section1buttons">
-                <button type="button" class="titlebutton">Products</button>
-                <button type="button" class="titlebutton">How it´s made?</button>
-            </div>
+        </div>
+        <div class="main__img__icecream">
+            <img src="images/slider-pic7_1.png" alt="Ice-cream ">
+        </div>
+        <div class="main__img__icepop">
+            <img src="images/slider-pic4_1.png" alt="Girl eating Ice-pop">
+        </div>
+        <div class="main__img__milk">
+            <img src="images/slider-pic5_1.png" alt="Milk in a jar">
+        </div>
+        <div class="main__img__arrow"></div>
 
-            <div class="">
-                <div>
-                    <p>16</p>
-                    <p>cafes</p>
-                </div>
-                <div>
-                    <p>23<br>
-                    <p>food trucks</p>
-                </div>
-            </div>
-            <img src="/images/slider-pic5_1.png" alt="tasty">
-            <img src="/images/slider-pic7_1.png" alt="icecream">
-            <img src="/images/slider-pic4_1.png" alt="milk">
-        </section>
-        <section>
+        <div class="main__count main__count__cafe">16</div>
+        <p  class="main__p__count main__p__count__cafe">cafe</p>
+        <div class="main__count main__count__foodtrucks">23</div>
+        <p class="main__p__count main__p__count__foodtrucks">food trucks</p>
+        <div class="main__img__arrow">
+            <img src="images/arrow-right1.png" alt="Ice-cream ">
+        </div>
+    </main>
+    <section>
             <div class="">
                 <p>
                     100% NATURAL
@@ -104,81 +124,195 @@
         </section>
 
         <section>
-            <div>
-                <p>
-                    TRADITION AND LOVE
-                </p>
-                <p>
-                    HOW IT´S MADE?
-                </p>
+            <div class="contenedor">
+                <h2 class="tradicion">tradition and love</h2>
+                <h3 class="made">how it´s made?</h3>
+                <div class="contenedor1">
+                    <div>
+                        <img class="img-vaca" src="images/home-pic4_1.png" alt="vaca">
+                    </div>
+                    <div class="contenedor2">
+                        <p class="texto-contenedor2 color1">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.</p>
+                        <p class="texto-contenedor2 color2">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt. <br><br><br><br>
+
+
+                            Aliquam erat volutpat. Aenean accumsan.</p>
+                            <div>
+                                <button type="button" class="texto-boton boton1">Read More ></button>
+                            </div>
+                    </div>
+                </div>
+                <div class="contenedor3">
+                    <div>
+                        <svg class="svg">
+                            <use href="images/sprites.svg#icon-Frape"></use>
+                        </svg>
+                        <p class="contenedor-numeros">721</p>
+                        <p class="texto-contenedor2 color1">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                    </div>
+                    <div>
+                        <svg class="svg">
+                            <use href="images/sprites.svg#icon-apples"></use>
+                        </svg>
+                        <p class="contenedor-numeros">16kg</p>
+                        <p class="texto-contenedor2 color1">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                    </div>
+                    <div>
+                        <svg class="svg">
+                            <use href="images/sprites.svg#icon-Corazon"></use>
+                        </svg>
+                        <p class="contenedor-numeros">84</p>
+                        <p class="texto-contenedor2 color1">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                    </div>
+                </div>
             </div>
             <div>
-                <img src="/images/home-pic4_1.png" alt="cow">
-                (aca va otra imagen de la leche salpicada)
-            </div>
-            <div>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum officiis, eius dolorum nostrum ducimus ea, tenetur sed cum fuga modi eligendi veniam, sequi suscipit similique dignissimos obcaecati optio praesentium cupiditate!
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptate praesentium laborum cum nihil quae, aut ipsa tempore suscipit. Tenetur modi nemo minima optio expedita, dolor at? Repellat, quia repellendus.
-                </p>
-                <p>
-                    Aliquam erat volutpat. Aenean accumsan
-                </p>
-            </div>
-            <div>
-                <button type="button" class="">Read More ></button>
-            </div>
-            <div>
-                <svg class="svg1">
-                    <use href="./images/svgs.svg#"></use>
-                </svg>
-                <p>
-                    721
-                </p>
-                <p>
-                    Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-                </p>
-            </div>
-            <div>
-                <svg class="svg1">
-                    <use href="./images/svgs.svg#"></use>
-                </svg>
-                <p>
-                    16kg
-                </p>
-                <p>
-                    Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-                </p>
-            </div>
-            <div>
-                <svg class="svg1">
-                    <use href="./images/svgs.svg#"></use>
-                </svg>
-                <p>
-                    84
-                </p>
-                <p>
-                    Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-                </p>
-            </div>
-            <div>
-                imagenes(Estas si se las dejo :))
+                <div class="galeria-top">
+                    <div class="galeria">
+                        <div class="galeria1">
+                            <img class="img1" src="images/pic1.jpg" alt="Paletas Verdes">
+                        </div>
+                        <div class="galeria1">
+                            <img class="img1"  src="images/pic2.jpg" alt="Helado fresa">
+                            <img class="img1"  src="images/pic3.jpg" alt="paleta fresa">
+                        </div>
+                        <div class="galeria1">
+                            <img class="img2" src="images/pic4.jpg" alt="Helados sabores">
+                            <img class="img1"  src="images/pic5.jpg" alt="Linda Chica">
+                        </div>
+                        <div class="galeria1">
+                            <img class="img1"  src="images/pic6.jpg" alt="Helado vainilla">
+                            <img class="img1"  src="images/pic7.jpg" alt="Helado Chocolate">
+                        </div>
+                        <div class="galeria1">
+                            <img class="img1"  src="images/pic8.jpg" alt="Perrito">
+                            <img class="img1"  src="images/pic9.jpg" alt="Malteada">
+                        </div>
+                        <div class="galeria1">
+                            <img class="img1"  src="images/pic10.jpg" alt="Leche">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section>
             <div>
-                MENU DESPLAZABLE
-            </div>       
-            
+                <img src="/images/testimonials1.png" alt="women1">
+                <p>
+                    Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla
+                    quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
+                </p>
+            </div>
+
+            <div>
+                <div>
+                    <p>
+                        CAFE
+                    </p>
+                    <p>
+                        Chicago
+                    </p>
+                    <p>
+                        Fusce ut velit laoreet, tempus arcu molestie vulputate
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        Monday - Friday
+                    </p>
+                    <p>
+                        06:00 AM - 10:00 PM
+                    </p>
+                    <p>
+                        Saturday - Sunday
+                    </p>
+                    <p>
+                        08:00 AM - 16:00 PM
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        +61(0) 383 766 284 <br> noreply@envato.com
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <p>
+                        FOOD TRUCK
+                    </p>
+                    <p>
+                        Los Angeles
+                    </p>
+                    <p>
+                        Fusce ut velit laoreet, tempus arcu molestie vulputate
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        Monday - Friday
+                    </p>
+                    <p>
+                        06:00 AM - 10:00 PM
+                    </p>
+                    <p>
+                        Saturday - Sunday
+                    </p>
+                    <p>
+                        08:00 AM - 16:00 PM
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        +61(0) 383 766 284 <br> noreply@envato.com
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <p>
+                        CAFE
+                    </p>
+                    <p>
+                        New York
+                    </p>
+                    <p>
+                        Fusce ut velit laoreet, tempus arcu molestie vulputate
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        Monday - Friday
+                    </p>
+                    <p>
+                        06:00 AM - 10:00 PM
+                    </p>
+                    <p>
+                        Saturday - Sunday
+                    </p>
+                    <p>
+                        08:00 AM - 16:00 PM
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        +61(0) 383 766 284 <br> noreply@envato.com
+                    </p>
+                </div>
+            </div>
+            <div>
+                <button type="button" class="buybutton">Our Locations</button>
+                <button type="button" class="buybutton">Franchise ></button>
+            </div>
         </section>
-    </main>
+
 
     <footer>
-   <p> HOMEMADE ICE CREAM MADE</p>
-   <p> WITH PASSION</p>
+        <p> HOMEMADE ICE CREAM MADE</p>
+        <p> WITH PASSION</p>
         <div class="">
             <div class="footericons">
                 <a>
@@ -199,11 +333,13 @@
             </div>
             <div>
                 <p>
-                Feel free to contac +61(0) 383 766 284
+                    Feel free to contac +61(0) 383 766 284
                 </p>
             </div>
             <div>
-                (C)2022 - IceCream. All Rights Reserved.
+                <p>
+                    (C)2022 - IceCream. All Rights Reserved.
+                </p>
             </div>
         </div>
     </footer>
